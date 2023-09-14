@@ -3,8 +3,8 @@ import Main from './component/Main/Main';
 function App() {
   return (
     <>
-    <Header></Header>
-    <Main></Main>
+      <Header></Header>
+      <Main></Main>
     </>
   )
 }

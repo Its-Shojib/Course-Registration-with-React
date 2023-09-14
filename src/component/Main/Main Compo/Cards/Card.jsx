@@ -5,6 +5,7 @@ const Card = ({ course,handleAddToCart}) => {
 
     return (
         <div>  
+            {/* Card elements */}
             <div className="card card-compact space-y-3 my-3 p-1">
                 <figure>
                     <img className="w-full" src={img} alt={course_name} />
@@ -21,6 +22,7 @@ const Card = ({ course,handleAddToCart}) => {
                         <p>Credit: {credit}hr</p>
                     </div>
                 </div>
+                {/* Select Button */}
                 <button onClick={()=>handleAddToCart(course)} className=" bg-blue-500 text-white py-2 rounded-md">Select</button>
             </div>
         </div>

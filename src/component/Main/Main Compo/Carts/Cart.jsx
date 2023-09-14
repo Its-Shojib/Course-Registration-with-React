@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 const Cart = ({ course }) => {
     let { course_name } = course;
-
+    /* Return Course Name Only */
     return (
         <>
             <li>{course_name}</li>
@@ -9,6 +9,6 @@ const Cart = ({ course }) => {
     );
 };
 Cart.propTypes = {
-    course: PropTypes.object,
+    course: PropTypes.object
 };
 export default Cart;
