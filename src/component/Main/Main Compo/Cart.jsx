@@ -1,8 +1,10 @@
 
-const Cart = () => {
+const Cart = ({course}) => {
+    let {course_name, credit, price} = course;
     return (
-        <div className="">
-            <p>This is Cart</p>
+        <div>
+            <h3>{ course_name}</h3>
+            
         </div>
     );
 };

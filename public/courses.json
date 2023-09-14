@@ -2,73 +2,73 @@
     {
       "id": 1,
       "course_name": "Introduction to C Programming",
-      "credit": "3 hours",
-      "price": 500,
-      "details": "An introductory course covering the fundamentals of computer science.",
+      "credit": "1",
+      "price": 15000,
+      "details": "An introductory course covering fundamental computer science.",
       "img": "https://i.ibb.co/34K9Nmx/Rectangle-2-2.png"
     },
     {
       "id": 2,
       "course_name": "Introduction to Algorithms",
-      "credit": "4 hours",
-      "price": 600,
-      "details": "A comprehensive study of algorithms used in computer science.",
+      "credit": "2",
+      "price": 25000,
+      "details": "A comprehensive study of algorithms in computer science.",
       "img": "https://i.ibb.co/cv5QkdW/Rectangle-2-3.png"
     },
     {
       "id": 3,
       "course_name": "Introduction to C++ for DSA",
-      "credit": "3 hours",
-      "price": 550,
-      "details": "Exploration of Data Structure and Algorithm.",
+      "credit": "10",
+      "price": 10000,
+      "details": "Exploration of Data Structure and Algorithm (DSA) with C plus plus.",
       "img": "https://i.ibb.co/jv3kL2F/Rectangle-2-4.png"
     },
     {
       "id": 4,
       "course_name": "Basic Data Structures",
-      "credit": "4 hours",
-      "price": 600,
-      "details": "Study of Data Structures principles and concepts.",
+      "credit": "5",
+      "price": 35000,
+      "details": "Study of Data Structures principles and concepts Computer Science.",
       "img": "https://i.ibb.co/DRJC0X9/Rectangle-3.png"
     },
     {
       "id": 5,
       "course_name": "Introduction to OOP Python",
-      "credit": "3 hours",
-      "price": 550,
-      "details": "Introduction to Object Oriented Programming in Python.",
+      "credit": "5",
+      "price": 19000,
+      "details": "Introduction to Object Oriented Programming(OOP) with Python.",
       "img": "https://i.ibb.co/hfMtfp4/Rectangle-2.png"
     },
     {
       "id": 6,
       "course_name": "Software Engineering",
-      "credit": "4 hours",
-      "price": 600,
-      "details": "Methods and practices in software development and project management.",
+      "credit": "2",
+      "price": 23000,
+      "details": "Methods software development and project management.",
       "img": "https://i.ibb.co/16bzcHG/Rectangle-2-5.png"
     },
     {
       "id": 7,
       "course_name": "AWS, Cloud Computing",
-      "credit": "3 hours",
-      "price": 550,
-      "details": "Exploration of Cloud Computing techniques and applications.",
+      "credit": "5",
+      "price": 35000,
+      "details": "Exploration of Cloud Computing technique and application (AWS).",
       "img": "https://i.ibb.co/whM02zd/Rectangle-3-1.png"
     },
     {
       "id": 8,
       "course_name": "Database (MySQL)",
-      "credit": "4 hours",
-      "price": 600,
-      "details": "Building Database using modern MySQL technologies.",
+      "credit": "5",
+      "price": 19000,
+      "details": "Building modern Database using MySQL technologies.",
       "img": "https://i.ibb.co/W0QHKm9/Rectangle-2-1.png"
     },
     {
       "id": 9,
       "course_name": "Problem-Solving Part",
-      "credit": "3 hours",
-      "price": 550,
-      "details": "Principles and practices of computer and nProblem Solving.",
+      "credit": "2",
+      "price": 23000,
+      "details": "Principles and practices of computer Science and Problem Solving.",
       "img": "https://i.ibb.co/0Vd3HMR/Rectangle-2-6.png"
     }
   ]
