@@ -1,13 +1,11 @@
-import { ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
-
 import PropTypes from 'prop-types';
+
 const Card = ({ course,handleAddToCart}) => {
     let {  course_name, credit, price, details, img } = course;
 
     return (
-        <div>
-            <div className="card card-compact space-y-3 my-5">
+        <div>  
+            <div className="card card-compact space-y-3 my-3 p-1">
                 <figure>
                     <img className="w-full" src={img} alt={course_name} />
                 </figure>
@@ -22,12 +20,9 @@ const Card = ({ course,handleAddToCart}) => {
                         <img src="Frame.jpg" alt="" />
                         <p>Credit: {credit}hr</p>
                     </div>
-
                 </div>
                 <button onClick={()=>handleAddToCart(course)} className=" bg-blue-500 text-white py-2 rounded-md">Select</button>
-                <ToastContainer />
             </div>
-
         </div>
     );
 };

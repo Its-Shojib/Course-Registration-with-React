@@ -1,40 +1,42 @@
 import { useState } from "react";
-import Cards from "./Main Compo/Cards";
-import Carts from "./Main Compo/Carts";
+import Cards from "./Main Compo/Cards/Cards";
+import Carts from "./Main Compo/Carts/Carts";
 import { useEffect } from "react";
 
-import { toast } from 'react-toastify';
+import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
 
 const Main = () => {
     let [courses, setCourses] = useState([]);
     let [selectedCourse, setSelectedCourse] = useState([]);
 
-    let handleAlreadyToast = () =>{
-        toast("Already Exist");
+    let handleAlreadyToast = () => {
+         toast("Already Exist");
     }
-    let handleOutOfCreditToast = () =>{
-        toast("Out of Credit");
+    let handleOutOfCreditToast = () => {
+         toast("Out of Credit");
     }
 
     let handleAddToCart = (course) => {
         let alreadyExist = selectedCourse.find(item => item.id === course.id);
         let cost = course.credit;
-        selectedCourse.forEach(item=>{
+        selectedCourse.forEach(item => {
             cost = cost + item.credit;
         })
         if (cost <= 20) {
-            if(alreadyExist){
+
+            if (alreadyExist) {
                 handleAlreadyToast();
+                <ToastContainer />
             }
-            else{
+            else {
                 let newSelected = [...selectedCourse, course]
-                setSelectedCourse(newSelected);  
+                setSelectedCourse(newSelected);
             }
         }
-        else{
-            return handleOutOfCreditToast();
+        else {
+            handleOutOfCreditToast();
+            <ToastContainer />
         }
     }
     useEffect(() => {
