@@ -1,7 +1,10 @@
+import Header from './component/Header/Header';
+import Main from './component/Main/Main';
 function App() {
   return (
     <>
-      <p className="text-5xl">Course Registration</p>
+    <Header></Header>
+    <Main></Main>
     </>
   )
 }
