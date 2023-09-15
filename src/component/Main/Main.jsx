@@ -14,11 +14,11 @@ const Main = () => {
 
     /* Toast Function for Already Added */
     let handleAlreadyToast = () => {
-        toast("Already Exist");
+        toast("Already added this Course!");
     }
     /* Toast Function for Out of Credit*/
     let handleOutOfCreditToast = () => {
-        toast("Out of Credit");
+        toast("Out of total Credit!");
     }
     /* Add into cart Function and Call the Toast*/
     let handleAddToCart = (course) => {
