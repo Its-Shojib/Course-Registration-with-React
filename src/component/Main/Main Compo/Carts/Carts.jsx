@@ -19,7 +19,7 @@ const Carts = ({ selectedCourse }) => {
             <h1 className="text-lg text-blue-500 font-semibold pt-3">Credit Hour Remaining: {creditRemaining - totalCredit} hr</h1>
             <hr />
             <h2 className="text-2xl font-bold ">Course Name</h2>
-            <div className="p-5 h-48 bg-gray-200 rounded-xl">
+            <div className="p-5 h-48 overflow-y-scroll bg-gray-200 rounded-xl">
                 {/* Cart Section */}
                 <ol className='list-decimal'>
                     {
