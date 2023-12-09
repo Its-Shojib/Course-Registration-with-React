@@ -1,5 +1,8 @@
 # [Course Registration](https://boisterous-donut-f3c513.netlify.app)
 
+# Link: 
+ [Click Here](https://boisterous-donut-f3c513.netlify.app)
+
 # The Features are:
 
 * **Select Any Courses:** You can select any courses from this website anytime.
@@ -22,3 +25,6 @@
 - Pass those selecting data to the Cart component and display selecting courses.
 - Calculate Total price,total credit and Remaining credit from selecting courses and display those.
 veral sections:
+
+# Technology Used:
+* **React Js, Tailwind, Javascript, JSON-API , Local-Storage**
